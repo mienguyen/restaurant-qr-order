@@ -32,10 +32,8 @@ $result = $conn->query($sql);
 
 </h5>
 
-<a href="#" class="btn btn-success">
-
-Thêm vào giỏ
-
+<a href="add_to_cart.php?id=<?= $row['ma_mon'] ?>" class="btn btn-success">
+    Thêm vào giỏ
 </a>
 
 </div>
